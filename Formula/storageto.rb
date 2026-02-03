@@ -4,28 +4,28 @@
 class Storageto < Formula
   desc "CLI tool for storage.to - simple file sharing"
   homepage "https://github.com/storageto/cli"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/storageto/cli/releases/download/v#{version}/storageto-darwin-arm64.tar.gz"
-      sha256 "7936fd3639c8d71ecf939ca152f3e4126405013e9e743fcca6ed2b45e23fbd61"
+      sha256 "7fbbbe28af63bae8999e3a36773b5d299caebd34a8fde9087c715564a9869534"
     end
     on_intel do
       url "https://github.com/storageto/cli/releases/download/v#{version}/storageto-darwin-amd64.tar.gz"
-      sha256 "af2f492c08acbfe19ab2122fa5a97633a266f63ac77118124ac291b59fe0a31d"
+      sha256 "fcb39facf9092122e9a9b3355285f1893d5ffd0bc3570d502ebdfb44cac0e096"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/storageto/cli/releases/download/v#{version}/storageto-linux-arm64.tar.gz"
-      sha256 "97d7abd28b6754d957f9542ed8a4b32fde0114ee87cbcbf5d6d1e4cd34474f81"
+      sha256 "26e446cd6d3b1e16ba7b1f636f6101d51cdf3390da1a70925c167e9db920c439"
     end
     on_intel do
       url "https://github.com/storageto/cli/releases/download/v#{version}/storageto-linux-amd64.tar.gz"
-      sha256 "2af6992bf37330df458ccc41eaefa6cf63b5f65d703b59d843f3fe53c04de097"
+      sha256 "ccef8f6d4eda53f5dc5cfc557829e4980483f773b22c090cf237cc44f6df362d"
     end
   end
 
